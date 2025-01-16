@@ -2,7 +2,6 @@ version: "3.8"
 
 services:
   nginx:
-   web :
     build: ./nginx
     image: ngnix
     container_name: "nginx_cont"
