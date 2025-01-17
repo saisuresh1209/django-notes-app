@@ -23,7 +23,7 @@ pipeline{
          stage("Build"){
             steps{
                script{
-                   
+                   echo 'building code'
                    build("notes-app","latest","devsai1201")
                }
                
